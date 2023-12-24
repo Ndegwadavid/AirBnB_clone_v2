@@ -16,9 +16,5 @@ def hbnb():
     """Route /hbnb"""
     return "HBNB"
 
-@app.route('/test', strict_slashes=False)
-def test():
-    return "Test"
-
 if __name__ == '__main__':
     app.run("0.0.0.0", 5000)
